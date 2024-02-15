@@ -9,7 +9,6 @@ class Program
     {
         // Imposta l'URL del web service
         string url = "https://clienti.saluber.it/api/stock/getLowAvailableItems";
-        ProvaGit
         // Esegui la chiamata al web service
         using (HttpClient client = new HttpClient())
         {
